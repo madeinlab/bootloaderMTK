@@ -92,4 +92,5 @@ drwxrwxr-x 2 lssnow lssnow    4096 Apr 10 12:31 libfdt
 **bootmenu**
 
 ![스크린샷 2025-04-10 오후 9 43 04](https://github.com/user-attachments/assets/2489f93f-1636-42e5-b709-011d8c8f5ab9)
+
 **reset**
