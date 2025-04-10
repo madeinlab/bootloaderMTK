@@ -1,0 +1,12 @@
+config REALTEK_SWITCH
+	bool "Realtek Ethernet switch driver"
+	help
+		This driver supports Realtek gigabit ethernet switch family.
+
+config RTL8370MB
+	bool "Realtek 8370MB Ethernet switch driver"
+	depends on REALTEK_SWITCH
+	help
+		This driver supports Realtek 8370MB gigabit ethernet switch family with
+		8port PHYs and 2.5Gbps interface.
+
