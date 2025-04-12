@@ -89,3 +89,16 @@ config MEDIATEK_UBI_FIXED_MTDPARTS
 	  partition or changing ubi partition to a different offset.
 
 endif
+
+config SERIAL_NO_DEFAULT
+	string "Board Serial Number DW + YY + MM + 12345 "
+	default "DW250412345"
+
+config ETHADDR_DEFAULT
+	string "Default ethaddr for Environment"
+	default "1C:56:8E:11:22:33"
+
+config ETHADDR1_DEFAULT
+	string "Default ethaddr1 for Environment"
+	default "1C:56:8E:11:22:34"
+

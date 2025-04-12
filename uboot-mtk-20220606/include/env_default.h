@@ -108,6 +108,24 @@ const char default_environment[] = {
 #if defined(CONFIG_BOOTCOUNT_BOOTLIMIT) && (CONFIG_BOOTCOUNT_BOOTLIMIT > 0)
 	"bootlimit="	__stringify(CONFIG_BOOTCOUNT_BOOTLIMIT)"\0"
 #endif
+
+/* Add Default Environment */
+#if defined(CONFIG_MTDIDS_DEFAULT)
+	"mtdids="	CONFIG_MTDIDS_DEFAULT	"\0"
+#endif
+#if defined(CONFIG_MTDPARTS_DEFAULT)
+	"mtdparts="	CONFIG_MTDPARTS_DEFAULT	"\0"
+#endif
+#if	defined(CONFIG_SERIAL_NO_DEFAULT)
+	"serial_no="	CONFIG_SERIAL_NO_DEFAULT	"\0"
+#endif
+#if	defined(CONFIG_ETHADDR_DEFAULT)
+	"ethaddr="	CONFIG_ETHADDR_DEFAULT	"\0"
+#endif
+#if	defined(CONFIG_ETHADDR1_DEFAULT)
+	"ethaddr1="	CONFIG_ETHADDR1_DEFAULT	"\0"
+#endif
+
 #ifdef CONFIG_EXTRA_ENV_TEXT
 # ifdef CONFIG_EXTRA_ENV_SETTINGS
 # error "Your board uses a text-file environment, so must not define CONFIG_EXTRA_ENV_SETTINGS"
