@@ -726,7 +726,7 @@ CONFIG_CMD_MTDPARTS=y
 # CONFIG_CMD_MTDPARTS_SPREAD is not set
 # CONFIG_CMD_MTDPARTS_SHOW_NET_SIZES is not set
 CONFIG_MTDIDS_DEFAULT="nmbm0=nmbm0"
-CONFIG_MTDPARTS_DEFAULT="nmbm0:1024k(bl2),512k(u-boot-env),2048k(factory),2048k(fip),512k(reserved),90m(ubi),16m(log)"
+CONFIG_MTDPARTS_DEFAULT="nmbm0:1024k(bl2),512k(u-boot-env),2048k(factory),2048k(fip),512k(reserved),96m(ubi),16m(log)"
 # CONFIG_CMD_REISER is not set
 # CONFIG_CMD_ZFS is not set
 
